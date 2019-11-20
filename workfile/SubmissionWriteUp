@@ -1,0 +1,33 @@
+For TASK 1, TASK 2 & TASK 3
+NOTE: Using MacOS machine and Jupytr notebook for analysis
+
+--To perform the analaysis we need to install all the libraries as mentioned in the script.
+--Since I was not able to install MYSQL db on cloud as it wanted a paid version hence i have done this analysis 
+  by reading the data from my local machines using pandas.
+--Foolowing are my credentials which i tried to connect to the DB: 
+                      import MySQLdb
+
+                      db=MySQLdb.connect(
+                          host='prateekkashyap.mysql.pythonanywhere-services.com',
+                          user='prateekkashyap',
+                          passwd='Nov@2019',
+                          db='prateekkashyap$campaign')
+
+--Hence I would request you to kindly accept this solution of mine and evaluste accordingly.
+--Also i have fulfilled all the requirments as mentioned in all the TASKS 1,2,3
+--I have mentioned all the data preparation steps in comments in my script.
+--I have tried Linear Regression, Random Forest Regression, GradientBoost Regression for this analysis.
+--since there were multi-target regression to be done hence I have created multiple model to predict 
+   each IMPRESSION and CLICKS.
+--To measure the performance of the model i have used Train, Tet and Validation sets of the data and used
+  MAE, MSE, RMSE & Rsquare to evaluate the best performing model.
+--the accuracy of the test and validation sets were not to varying hence there was no under & over fitting in the data.
+--Over all we got XGBoost regressor as best model to predict IMPRESSIONS & RF regressor as best model to predict CLICKS.
+--Finally with the best performing models i have predicted the results for next week as per the requirements.
+
+
+TASK 4
+
+--For this i have installed Spark on my local machine and have installed all the libraries and data from local machine.
+--For TASK 4 ie movie recommendation i have created a separate repository with my analysis. Hence would request you to 
+  kindly refer to it as well.
