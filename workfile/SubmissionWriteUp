@@ -16,6 +16,8 @@ NOTE: Using MacOS machine and Jupytr notebook for analysis
 --Hence I would request you to kindly accept this solution of mine and evaluste accordingly.
 --Also i have fulfilled all the requirments as mentioned in all the TASKS 1,2,3
 --I have mentioned all the data preparation steps in comments in my script.
+--To perform EDA i have used a new library called as pandas_profiling but its solution is not visible if i save it in github
+  Hence i will be send the solution file in email separately.
 --I have tried Linear Regression, Random Forest Regression, GradientBoost Regression for this analysis.
 --since there were multi-target regression to be done hence I have created multiple model to predict 
    each IMPRESSION and CLICKS.
